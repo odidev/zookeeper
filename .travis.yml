@@ -9,6 +9,7 @@ matrix:
     - os: linux
       jdk: openjdk11
     - os: linux
+      arch: arm64
       jdk: openjdk11
     - os: linux
       arch: s390x
