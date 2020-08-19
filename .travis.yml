@@ -33,6 +33,7 @@ install:
   - if [ "${TRAVIS_CPU_ARCH}" == "arm64" ]; then
      sudo apt-get install maven;
     fi
+    
 
 script: mvn clean apache-rat:check verify -DskipTests spotbugs:check checkstyle:check -Pfull-build
 
